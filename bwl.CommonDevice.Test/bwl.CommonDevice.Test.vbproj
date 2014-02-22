@@ -121,9 +121,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\bwl.CommonDevice\bwl.CommonDevice.vbproj">
+    <ProjectReference Include="..\bwl.CommonDevice\Bwl.CommonDevice.vbproj">
       <Project>{ea32ad0c-1fe0-4a15-b5bc-4161d386b9d4}</Project>
-      <Name>bwl.CommonDevice</Name>
+      <Name>Bwl.CommonDevice</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
