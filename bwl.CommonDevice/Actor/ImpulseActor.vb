@@ -3,7 +3,7 @@
     Protected _id As String
     Protected _name As String
     Protected _actDelegate As ImpulseActorActDelegate
-    Public Delegate Sub ImpulseActorActDelegate()
+    Public Delegate Sub ImpulseActorActDelegate(params() As String)
 
     Public Sub New(id As String, name As String, actDelegate As ImpulseActorActDelegate)
         _name = name
@@ -22,8 +22,8 @@
         End Get
     End Property
 
-    Public Sub Act() Implements IImpulseActor.Act
-        _actDelegate()
+    Public Sub Act(ParamArray params() As String) Implements IImpulseActor.Act
+        _actDelegate(params)
     End Sub
 
     Public ReadOnly Property ID As String Implements ISensorActorBase.ID

@@ -1,4 +1,4 @@
 ﻿Public Interface IImpulseActor
     Inherits IActor
-    Sub Act()
+    Sub Act(ParamArray params() As String)
 End Interface

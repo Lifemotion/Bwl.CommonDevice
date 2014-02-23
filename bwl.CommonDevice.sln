@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Bwl.CommonDevice", "bwl.CommonDevice\Bwl.CommonDevice.vbproj", "{EA32AD0C-1FE0-4A15-B5BC-4161D386B9D4}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "bwl.CommonDevice.Test", "bwl.CommonDevice.Test\bwl.CommonDevice.Test.vbproj", "{2639022B-18C6-4CC6-8084-2D6AA86AA2A6}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Bwl.CommonDevice.Test", "bwl.CommonDevice.Test\Bwl.CommonDevice.Test.vbproj", "{2639022B-18C6-4CC6-8084-2D6AA86AA2A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
