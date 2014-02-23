@@ -26,7 +26,7 @@
         RaiseEvent EventHappened(Me, args)
     End Sub
 
-    Public Event EventHappened(sender As IEventSensor, args() As String) Implements IEventSensor.EventHappened
+	Public Event EventHappened(sender As IEventSensor, args() As String) Implements IEventSensor.EventHappened
 
     Public ReadOnly Property ID As String Implements ISensorActorBase.ID
         Get

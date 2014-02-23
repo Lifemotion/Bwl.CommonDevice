@@ -28,7 +28,7 @@
     <DefineDebug>false</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\dll\</OutputPath>
     <DocumentationFile>bwl.CommonDevice.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
@@ -46,7 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bwl.Framework">
-      <HintPath>..\..\..\Libs\bwl.Framework\bwl.Framework\dllOut\Bwl.Framework.dll</HintPath>
+      <HintPath>..\refs\Bwl.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
